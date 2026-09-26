@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — en développement",
-  "updated": "2026-09-26T14:40:50+02:00",
+  "updated": "2026-09-26T19:40:11+02:00",
   "domains": [
     {
       "id": "tech",
@@ -21,7 +21,9 @@
         "Sauvegarde de la progression, commandes, réseau client / serveur",
         "Tests en jeu automatiques : scénario complet, créatures, énigmes"
       ],
-      "wip": [],
+      "wip": [
+        "Un seul ennemi de nuit par monde, qui se reforme la nuit suivante, plus fort"
+      ],
       "todo": [
         "Test à plusieurs joueurs",
         "Performances sur une longue partie",
@@ -40,8 +42,13 @@
         "Un ennemi de nuit dans le monde normal, blessable par une seule arme",
         "Armes et outils propres au mod"
       ],
-      "wip": [],
+      "wip": [
+        "Combat de boss contre l'ennemi de nuit : une compétence de plus à chaque chapitre, 2e phase à mi-vie",
+        "Rituel final pour le détruire pour de bon",
+        "7 nouveaux objets : 3 reliques de l'ennemi de nuit + 4 objets divins hyper rares"
+      ],
       "todo": [
+        "Bestiaire : 5 nouveaux ennemis d'après les planches de l'auteur",
         "Petits ennemis et énigmes dans les 3 autres dimensions",
         "Récompense de la salle finale",
         "Plus de variété : poursuites, cachettes, pièges"
@@ -78,7 +85,10 @@
         "Vision animée en plein écran",
         "Outils et blocs d'énigmes texturés"
       ],
-      "wip": [],
+      "wip": [
+        "Barre de boss stylée, filtre noir et blanc et écran « sous pression » pendant le combat",
+        "Animations de disparition et de reformation (dissolution pixel par pixel)"
+      ],
       "todo": [
         "Validation finale des textures",
         "Modèles des futurs ennemis"
@@ -120,6 +130,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-26",
+      "text": "En cours : combat de boss (compétences par chapitre, 2e phase, rituel final), 7 nouveaux objets, animations de dissolution"
+    },
     {
       "date": "2026-09-26",
       "text": "Ennemi de nuit entièrement refait d'après la planche de concept (modèle, texture, aura, fragments)"
