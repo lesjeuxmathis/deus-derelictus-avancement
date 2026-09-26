@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — en développement",
-  "updated": "2026-09-26T14:24:47+02:00",
+  "updated": "2026-09-26T14:40:50+02:00",
   "domains": [
     {
       "id": "tech",
@@ -67,19 +67,18 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 65,
+      "percent": 68,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
+        "Ennemi de nuit refait d'après la planche de concept : robe déchirée, yeux carrés, aura en anneau, fragments qui se détachent et se reforment",
         "Modèles et textures de toutes les créatures",
         "Animations : regard, respiration, attaques, mort",
         "Halo en 3D (240 segments)",
         "Vision animée en plein écran",
         "Outils et blocs d'énigmes texturés"
       ],
-      "wip": [
-        "Refonte de l'ennemi de nuit d'après la nouvelle planche de concept"
-      ],
+      "wip": [],
       "todo": [
         "Validation finale des textures",
         "Modèles des futurs ennemis"
@@ -121,6 +120,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-09-26",
+      "text": "Ennemi de nuit entièrement refait d'après la planche de concept (modèle, texture, aura, fragments)"
+    },
     {
       "date": "2026-09-26",
       "text": "Sons propres des 3 petits ennemis + ambiance de la 4e dimension · nouvel œil réaliste sur ce site"
