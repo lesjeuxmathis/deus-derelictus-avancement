@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DEUS DERELICTUS — Avancement</title>
+<meta name="description" content="Avancement du développement de DEUS DERELICTUS, mis à jour en direct.">
+<meta name="theme-color" content="#0a0506">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a0506'/%3E%3Ccircle cx='16' cy='16' r='9.5' fill='none' stroke='%23d4202e' stroke-width='2.2'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23f2e9e9'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0506;
+    --panel: #140a0b;
+    --line: #2b1618;
+    --text: #ece2e2;
+    --muted: #a38e8e;
+    --faint: #6f5b5b;
+    --red: #d4202e;
+    --red-deep: #8e0f19;
+    --glow: rgba(212, 32, 46, .35);
+    --track: #231315;
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: dark; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(142, 15, 25, .38), transparent 70%),
+      radial-gradient(ellipse 70% 40% at 50% 110%, rgba(142, 15, 25, .14), transparent 70%);
+    color: var(--text);
+    font: 15px/1.55 Inter, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(0deg, rgba(255, 255, 255, .018) 0 1px, transparent 1px 3px);
+    z-index: 10;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 48px 16px 64px; }
+
+  header { text-align: center; }
+  .sigil { width: 76px; height: 76px; filter: drop-shadow(0 0 14px var(--glow)); }
+  .sigil .spin { transform-origin: 50px 50px; animation: spin 40s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  h1 {
+    font-family: Cinzel, serif;
+    font-weight: 700;
+    font-size: clamp(26px, 7vw, 46px);
+    letter-spacing: .16em;
+    margin: 16px 0 4px;
+    text-shadow: 0 0 26px var(--glow);
+  }
+  .tagline { color: var(--muted); font-size: 12px; letter-spacing: .28em; text-transform: uppercase; margin: 0; }
+  .live {
+    display: inline-flex; align-items: center; gap: 9px;
+    margin-top: 20px; padding: 6px 13px;
+    border: 1px solid var(--line); border-radius: 999px;
+    background: rgba(0, 0, 0, .35);
+    font: 12px 'JetBrains Mono', monospace; color: var(--muted);
+  }
+  .live b { color: var(--text); font-weight: 600; letter-spacing: .12em; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--red); box-shadow: 0 0 9px var(--red); animation: pulse 1.6s ease-in-out infinite; }
+  .live.stale .dot { background: var(--faint); box-shadow: none; animation: none; }
+  @keyframes pulse { 50% { opacity: .2; } }
+
+  .global {
+    margin-top: 40px; padding: 28px 28px 24px;
+    border: 1px solid var(--line); border-radius: 14px;
+    background: linear-gradient(180deg, rgba(22, 11, 12, .92), rgba(12, 6, 7, .92));
+  }
+  .global-top { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .label { color: var(--muted); font-size: 12px; letter-spacing: .2em; text-transform: uppercase; }
+  .big { font: 600 clamp(56px, 14vw, 92px)/.9 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+  .big small { font-size: .38em; color: var(--muted); margin-left: 4px; }
+  .segbar { display: grid; grid-template-columns: repeat(50, 1fr); gap: 3px; margin-top: 20px; }
+  .seg { height: 16px; border-radius: 2px; background: var(--track); transition: background .4s, box-shadow .4s; }
+  .seg.on { background: linear-gradient(180deg, #e8394a, var(--red-deep)); box-shadow: 0 0 7px var(--glow); }
+  .note { margin: 12px 0 0; color: var(--faint); font-size: 12.5px; }
+
+  h2 { font: 600 12px Inter, sans-serif; letter-spacing: .24em; text-transform: uppercase; color: var(--muted); margin: 48px 0 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+  .card { border: 1px solid var(--line); border-radius: 12px; background: var(--panel); padding: 18px 18px 14px; transition: border-color .6s, box-shadow .6s; }
+  .card.flash { border-color: var(--red); box-shadow: 0 0 22px var(--glow); }
+  .card-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .card h3 { margin: 0; font: 600 15.5px Inter, sans-serif; }
+  .pct { font: 600 20px 'JetBrains Mono', monospace; color: var(--red); font-variant-numeric: tabular-nums; }
+  .bar { height: 6px; background: var(--track); border-radius: 99px; margin: 12px 0 10px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--red-deep), #e8394a); border-radius: inherit; transition: width 1.3s cubic-bezier(.2, .8, .2, 1); }
+  .card p { margin: 0 0 10px; color: var(--muted); font-size: 13.5px; }
+  details summary { cursor: pointer; color: var(--muted); font-size: 12.5px; list-style: none; user-select: none; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: "▸ "; color: var(--faint); }
+  details[open] summary::before { content: "▾ "; }
+  details summary:hover { color: var(--text); }
+  ul.items { list-style: none; margin: 10px 0 2px; padding: 0; display: grid; gap: 6px; font-size: 13.5px; }
+  ul.items li { display: grid; grid-template-columns: 18px 1fr; gap: 6px; }
+  li.done { color: #d6caca; }
+  li.done::before { content: "✓"; color: #9d8a8a; }
+  li.wip { color: var(--text); }
+  li.wip::before { content: "◐"; color: var(--red); animation: pulse 1.6s ease-in-out infinite; }
+  li.todo { color: var(--faint); }
+  li.todo::before { content: "○"; }
+
+  .journal { display: grid; gap: 10px; }
+  .entry { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding: 12px 16px; border-left: 2px solid var(--red-deep); background: rgba(20, 10, 11, .7); border-radius: 0 8px 8px 0; font-size: 14px; }
+  .entry time { font: 12px 'JetBrains Mono', monospace; color: var(--muted); padding-top: 2px; }
+  footer { margin-top: 56px; text-align: center; color: var(--faint); font-size: 12px; }
+  .error { color: var(--muted); text-align: center; margin-top: 40px; }
+
+  @media (max-width: 560px) {
+    .global { padding: 22px 18px 18px; }
+    .segbar { gap: 2px; }
+    .seg { height: 13px; }
+    .entry { grid-template-columns: 1fr; gap: 2px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg class="sigil" viewBox="0 0 100 100" aria-hidden="true">
+      <g class="spin" stroke="#d9cccc" stroke-width="2" stroke-linecap="round">
+        <line x1="50" y1="2" x2="50" y2="20"/><line x1="50" y1="80" x2="50" y2="98"/>
+        <line x1="2" y1="50" x2="20" y2="50"/><line x1="80" y1="50" x2="98" y2="50"/>
+      </g>
+      <circle cx="50" cy="50" r="31" fill="none" stroke="#d4202e" stroke-width="3"/>
+      <circle cx="50" cy="50" r="24" fill="#120708"/>
+      <circle cx="50" cy="50" r="5" fill="#f4eaea"/>
+    </svg>
+    <h1 id="title">DEUS DERELICTUS</h1>
+    <p class="tagline" id="tagline">Avancement du développement</p>
+    <div class="live stale" id="live" role="status"><span class="dot"></span><b>EN DIRECT</b><span id="ago">connexion…</span></div>
+  </header>
+
+  <main id="main">
+    <section class="global" aria-labelledby="global-label">
+      <div class="global-top">
+        <div>
+          <div class="label" id="global-label">Avancement global</div>
+          <div class="big"><span id="global">—</span><small>%</small></div>
+        </div>
+        <div class="label" id="counts"></div>
+      </div>
+      <div class="segbar" id="segbar" aria-hidden="true"></div>
+      <p class="note">Moyenne pondérée des domaines ci-dessous. La page se met à jour toute seule.</p>
+    </section>
+
+    <h2>Par domaine</h2>
+    <div class="grid" id="domains"></div>
+
+    <h2>Journal</h2>
+    <div class="journal" id="journal"></div>
+
+    <section id="activity-sec" hidden>
+      <h2>Dernières publications</h2>
+      <div class="journal" id="activity"></div>
+    </section>
+  </main>
+
+  <footer>Mis à jour à chaque étape du développement · page rafraîchie toutes les minutes</footer>
+</div>
+
+<noscript><p class="error">Active JavaScript pour voir l'avancement.</p></noscript>
+
+<script>
+  const $ = s => document.querySelector(s);
+  const rtf = new Intl.RelativeTimeFormat('fr', { numeric: 'auto' });
+  const dateFmt = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+  let lastText = '', data = null, previous = {};
+
+  const esc = t => String(t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  function ago(iso) {
+    const s = (new Date(iso) - Date.now()) / 1000, a = Math.abs(s);
+    if (a < 60) return "à l'instant";
+    if (a < 3600) return rtf.format(Math.round(s / 60), 'minute');
+    if (a < 86400) return rtf.format(Math.round(s / 3600), 'hour');
+    return rtf.format(Math.round(s / 86400), 'day');
+  }
+
+  function globalPercent(d) {
+    const w = d.domains.reduce((a, x) => a + (x.weight || 0), 0) || 1;
+    return Math.round(d.domains.reduce((a, x) => a + x.percent * (x.weight || 0), 0) / w);
+  }
+
+  function list(items, cls) {
+    return (items || []).map(t => `<li class="${cls}">${esc(t)}</li>`).join('');
+  }
+
+  function render(d) {
+    document.title = `${d.project} — ${globalPercent(d)} % · Avancement`;
+    $('#title').textContent = d.project;
+    if (d.tagline) $('#tagline').textContent = d.tagline;
+
+    const g = globalPercent(d);
+    $('#global').textContent = g;
+    const on = Math.round(g / 2);
+    $('#segbar').innerHTML = Array.from({ length: 50 }, (_, i) => `<span class="seg${i < on ? ' on' : ''}"></span>`).join('');
+
+    let done = 0, wip = 0, todo = 0;
+    d.domains.forEach(x => { done += (x.done || []).length; wip += (x.wip || []).length; todo += (x.todo || []).length; });
+    $('#counts').textContent = `${done} faits · ${wip} en cours · ${todo} à faire`;
+
+    const open = new Set([...document.querySelectorAll('#domains details[open]')].map(e => e.dataset.id));
+    $('#domains').innerHTML = d.domains.map(x => {
+      const n = [(x.done || []).length && `${x.done.length} fait${x.done.length > 1 ? 's' : ''}`,
+                 (x.wip || []).length && `${x.wip.length} en cours`,
+                 (x.todo || []).length && `${x.todo.length} à faire`].filter(Boolean).join(' · ');
+      return `<article class="card" id="d-${esc(x.id)}">
+        <div class="card-top"><h3>${esc(x.name)}</h3><span class="pct">${x.percent} %</span></div>
+        <div class="bar" role="progressbar" aria-label="${esc(x.name)}" aria-valuenow="${x.percent}" aria-valuemin="0" aria-valuemax="100"><i data-w="${x.percent}"></i></div>
+        <p>${esc(x.summary || '')}</p>
+        <details data-id="${esc(x.id)}"${open.has(x.id) ? ' open' : ''}><summary>${n}</summary>
+          <ul class="items">${list(x.wip, 'wip')}${list(x.done, 'done')}${list(x.todo, 'todo')}</ul>
+        </details>
+      </article>`;
+    }).join('');
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      document.querySelectorAll('.bar > i').forEach(i => { i.style.width = i.dataset.w + '%'; });
+    }));
+
+    // a domain that moved since the last refresh lights up
+    d.domains.forEach(x => {
+      if (previous[x.id] !== undefined && previous[x.id] !== x.percent) {
+        const card = $('#d-' + x.id);
+        card.classList.add('flash');
+        setTimeout(() => card.classList.remove('flash'), 4000);
+      }
+      previous[x.id] = x.percent;
+    });
+
+    $('#journal').innerHTML = (d.journal || []).map(e =>
+      `<div class="entry"><time datetime="${esc(e.date)}">${esc(dateFmt.format(new Date(e.date + 'T12:00:00')))}</time><div>${esc(e.text)}</div></div>`).join('');
+    tick();
+  }
+
+  function tick() {
+    if (data) $('#ago').textContent = 'mis à jour ' + ago(data.updated);
+  }
+
+  async function load() {
+    try {
+      const r = await fetch('progress.json?t=' + Date.now(), { cache: 'no-store' });
+      if (!r.ok) throw new Error(r.status);
+      const text = await r.text();
+      if (text !== lastText) {
+        lastText = text;
+        data = JSON.parse(text);
+        render(data);
+      }
+      $('#live').classList.remove('stale');
+    } catch (e) {
+      $('#live').classList.add('stale');
+      if (!data) $('#ago').textContent = 'hors ligne';
+    }
+  }
+
+  // the latest commits of this site's repository (each progress update is one)
+  async function activity() {
+    const host = location.hostname;
+    if (!host.endsWith('.github.io')) return;
+    const owner = host.split('.')[0];
+    const repo = location.pathname.split('/').filter(Boolean)[0] || host;
+    try {
+      const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/commits?per_page=6`);
+      if (!r.ok) return;
+      const commits = await r.json();
+      $('#activity').innerHTML = commits.map(c => {
+        const when = c.commit.committer.date;
+        return `<div class="entry"><time datetime="${esc(when)}">${esc(ago(when))}</time><div>${esc(c.commit.message.split('\n')[0])}</div></div>`;
+      }).join('');
+      $('#activity-sec').hidden = commits.length === 0;
+    } catch (e) { /* no feed, the page still works */ }
+  }
+
+  load();
+  activity();
+  setInterval(load, 60000);
+  setInterval(activity, 300000);
+  setInterval(tick, 30000);
+</script>
+</body>
+</html>

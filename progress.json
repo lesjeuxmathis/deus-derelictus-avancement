@@ -1,0 +1,127 @@
+{
+  "project": "DEUS DERELICTUS",
+  "tagline": "Mod d'horreur pour Minecraft — en développement",
+  "updated": "2026-09-26T08:37:45+02:00",
+  "domains": [
+    {
+      "id": "tech",
+      "name": "Technique",
+      "percent": 88,
+      "weight": 0.35,
+      "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
+      "done": [
+        "Moteur d'histoire : chapitres, conditions, branches et fins multiples",
+        "Choix du joueur affichés à l'écran",
+        "Déclencheurs selon la position du joueur",
+        "6 types d'événements d'horreur",
+        "Effets hors du jeu sécurisés : notes texte, fausse console purement visuelle",
+        "Discussion en jeu avec l'entité principale (IA + réponses de secours, 5 langues)",
+        "Générateur de cartes fixes pour les dimensions, portails",
+        "Système de corruption : effets, écran, interface",
+        "Sauvegarde de la progression, commandes, réseau client / serveur",
+        "Tests en jeu automatiques : scénario complet, créatures, énigmes"
+      ],
+      "wip": [],
+      "todo": [
+        "Test à plusieurs joueurs",
+        "Performances sur une longue partie",
+        "Options pour le joueur (intensité des effets…)"
+      ]
+    },
+    {
+      "id": "content",
+      "name": "Contenu jouable",
+      "percent": 48,
+      "weight": 0.25,
+      "summary": "Lieux à explorer, ennemis, énigmes, objets.",
+      "done": [
+        "4 dimensions explorables",
+        "Une dimension complète : 3 petits ennemis, 3 énigmes, portes scellées, coffres",
+        "Un ennemi de nuit dans le monde normal, blessable par une seule arme",
+        "Armes et outils propres au mod"
+      ],
+      "wip": [],
+      "todo": [
+        "Petits ennemis et énigmes dans les 3 autres dimensions",
+        "Récompense de la salle finale",
+        "Plus de variété : poursuites, cachettes, pièges"
+      ]
+    },
+    {
+      "id": "story",
+      "name": "Histoire & textes",
+      "percent": 35,
+      "weight": 0.15,
+      "summary": "Trame, dialogues, notes et textes du jeu.",
+      "done": [
+        "Trame complète : 8 chapitres et 3 fins",
+        "Titres traduits en 5 langues"
+      ],
+      "wip": [],
+      "todo": [
+        "Textes définitifs : notes, murmures, registres",
+        "Histoire de chaque dimension",
+        "Textes de la salle finale"
+      ]
+    },
+    {
+      "id": "visual",
+      "name": "Visuels",
+      "percent": 65,
+      "weight": 0.10,
+      "summary": "Modèles, textures, animations et effets à l'écran.",
+      "done": [
+        "Modèles et textures de toutes les créatures",
+        "Animations : regard, respiration, attaques, mort",
+        "Halo en 3D (240 segments)",
+        "Vision animée en plein écran",
+        "Outils et blocs d'énigmes texturés"
+      ],
+      "wip": [],
+      "todo": [
+        "Validation finale des textures",
+        "Modèles des futurs ennemis"
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "percent": 40,
+      "weight": 0.05,
+      "summary": "Voix, bruitages et ambiances, tous synthétisés.",
+      "done": [
+        "Voix, présence et disparition de l'entité principale",
+        "Effets : glitch, vision",
+        "Ambiances de 2 dimensions et de la présence"
+      ],
+      "wip": [
+        "Sons propres des 3 petits ennemis + ambiance de la 4e dimension"
+      ],
+      "todo": [
+        "Sons propres de l'ennemi de nuit",
+        "Ambiance continue de la dernière dimension"
+      ]
+    },
+    {
+      "id": "polish",
+      "name": "Finition",
+      "percent": 30,
+      "weight": 0.10,
+      "summary": "Équilibrage, vraies parties de test, bande-annonce.",
+      "done": [
+        "Corrections après vérification en jeu (titres, textures, blocages)"
+      ],
+      "wip": [],
+      "todo": [
+        "Partie complète jouée du début à la fin",
+        "Équilibrage : vie, dégâts, vitesse de la corruption",
+        "Bande-annonce"
+      ]
+    }
+  ],
+  "journal": [
+    { "date": "2026-09-26", "text": "Site d'avancement en ligne · sons des petits ennemis en cours" },
+    { "date": "2026-09-26", "text": "Nouvelle dimension : 3 petits ennemis, 3 énigmes · animations des personnages · halo en 3D · ennemi de nuit retravaillé" },
+    { "date": "2026-09-24", "text": "Vision réaliste et corrompue · créature qui se fissure à chaque phase · outils 32×32 · compilation automatique" }
+  ]
+}
