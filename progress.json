@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
-  "tagline": "Mod d'horreur pour Minecraft — en développement",
-  "updated": "2026-09-26T19:40:11+02:00",
+  "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
+  "updated": "2026-09-27T08:55:59+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 88,
+      "percent": 90,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -19,11 +19,10 @@
         "Générateur de cartes fixes pour les dimensions, portails",
         "Système de corruption : effets, écran, interface",
         "Sauvegarde de la progression, commandes, réseau client / serveur",
+        "Un seul ennemi de nuit par monde : tué, il se reforme la nuit suivante, un peu plus fort",
         "Tests en jeu automatiques : scénario complet, créatures, énigmes"
       ],
-      "wip": [
-        "Un seul ennemi de nuit par monde, qui se reforme la nuit suivante, plus fort"
-      ],
+      "wip": [],
       "todo": [
         "Test à plusieurs joueurs",
         "Performances sur une longue partie",
@@ -33,25 +32,23 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 48,
+      "percent": 56,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
         "4 dimensions explorables",
         "Une dimension complète : 3 petits ennemis, 3 énigmes, portes scellées, coffres",
         "Un ennemi de nuit dans le monde normal, blessable par une seule arme",
-        "Armes et outils propres au mod"
+        "Armes et outils propres au mod",
+        "Combat de boss : une compétence de plus à chaque chapitre, 2e phase à mi-vie",
+        "Rituel final pour détruire l'ennemi de nuit pour de bon",
+        "8 nouveaux objets : 3 reliques + une cape, et 4 objets divins hyper rares (seulement dans les coffres du mod)"
       ],
-      "wip": [
-        "Combat de boss contre l'ennemi de nuit : une compétence de plus à chaque chapitre, 2e phase à mi-vie",
-        "Rituel final pour le détruire pour de bon",
-        "7 nouveaux objets : 3 reliques de l'ennemi de nuit + 4 objets divins hyper rares"
-      ],
+      "wip": [],
       "todo": [
-        "Bestiaire : 5 nouveaux ennemis d'après les planches de l'auteur",
-        "Petits ennemis et énigmes dans les 3 autres dimensions",
-        "Récompense de la salle finale",
-        "Plus de variété : poursuites, cachettes, pièges"
+        "Bestiaire : 5 nouveaux ennemis d'après les planches de l'auteur (+ variantes, ennemis spéciaux)",
+        "Petits ennemis et énigmes dans 3 autres dimensions",
+        "Récompense de la salle finale"
       ]
     },
     {
@@ -74,7 +71,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 68,
+      "percent": 72,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -83,15 +80,15 @@
         "Animations : regard, respiration, attaques, mort",
         "Halo en 3D (240 segments)",
         "Vision animée en plein écran",
-        "Outils et blocs d'énigmes texturés"
-      ],
-      "wip": [
+        "Outils et blocs d'énigmes texturés",
         "Barre de boss stylée, filtre noir et blanc et écran « sous pression » pendant le combat",
-        "Animations de disparition et de reformation (dissolution pixel par pixel)"
+        "Animations de disparition et de reformation (dissolution pixel par pixel)",
+        "Objets en 32×32 détaillés, lanterne en 3D"
       ],
+      "wip": [],
       "todo": [
         "Validation finale des textures",
-        "Modèles des futurs ennemis"
+        "Modèles et textures du bestiaire"
       ]
     },
     {
@@ -104,35 +101,38 @@
         "Voix, présence et disparition de l'entité principale",
         "Effets : glitch, vision",
         "Sons propres des 3 petits ennemis (gémissements, cliquetis, œil qui se charge)",
-        "Ambiances de 3 dimensions et de la présence"
+        "Ambiances de 3 dimensions et de la présence",
+        "Battement de cœur pendant le combat de boss"
       ],
       "wip": [],
       "todo": [
         "Sons propres de l'ennemi de nuit",
-        "Ambiance continue de la dernière dimension"
+        "Ambiance continue de la dernière dimension",
+        "Sons du bestiaire"
       ]
     },
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 30,
+      "percent": 32,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
-        "Corrections après vérification en jeu (titres, textures, blocages)"
+        "Corrections après vérification en jeu (titres, textures, blocages)",
+        "Gros test automatique du boss (compétences, 2e phase, rituel, objets)"
       ],
       "wip": [],
       "todo": [
         "Partie complète jouée du début à la fin",
         "Équilibrage : vie, dégâts, vitesse de la corruption",
-        "Bande-annonce"
+        "Bande-annonce (quand tout sera à 100 %)"
       ]
     }
   ],
   "journal": [
     {
-      "date": "2026-09-26",
-      "text": "En cours : combat de boss (compétences par chapitre, 2e phase, rituel final), 7 nouveaux objets, animations de dissolution"
+      "date": "2026-09-27",
+      "text": "L'ennemi de nuit devient un boss : un seul par monde, compétences par chapitre, 2e phase, barre de boss, filtre noir et blanc, rituel final · animations de dissolution · 8 nouveaux objets"
     },
     {
       "date": "2026-09-26",
