@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-09-27T08:55:59+02:00",
+  "updated": "2026-10-02T20:32:12+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 90,
+      "percent": 93,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -15,18 +15,20 @@
         "Déclencheurs selon la position du joueur",
         "6 types d'événements d'horreur",
         "Effets hors du jeu sécurisés : notes texte, fausse console purement visuelle",
-        "Discussion en jeu avec l'entité principale (IA + réponses de secours, 5 langues)",
         "Générateur de cartes fixes pour les dimensions, portails",
         "Système de corruption : effets, écran, interface",
         "Sauvegarde de la progression, commandes, réseau client / serveur",
         "Un seul ennemi de nuit par monde : tué, il se reforme la nuit suivante, un peu plus fort",
+        "Discussion en jeu avec l'entité principale, sans IA : elle comprend 5 langues et ne répond jamais dans la mauvaise",
+        "Solo ou multijoueur jusqu'à 4 joueurs : le 5e est refusé, au-delà le jeu se met en pause",
+        "Ban temporaire des joueurs (durée au choix)",
+        "Langue du mod au choix de chaque joueur dès le premier lancement + menu d'options (depuis la liste des mods ou une touche)",
         "Tests en jeu automatiques : scénario complet, créatures, énigmes"
       ],
       "wip": [],
       "todo": [
-        "Test à plusieurs joueurs",
-        "Performances sur une longue partie",
-        "Options pour le joueur (intensité des effets…)"
+        "Vraie partie à plusieurs joueurs",
+        "Performances sur une longue partie"
       ]
     },
     {
@@ -114,12 +116,13 @@
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 32,
+      "percent": 36,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
         "Corrections après vérification en jeu (titres, textures, blocages)",
-        "Gros test automatique du boss (compétences, 2e phase, rituel, objets)"
+        "Gros test automatique du boss (compétences, 2e phase, rituel, objets)",
+        "Tests automatiques : multijoueur, compréhension du chat (435 phrases, 5 langues), langues et options"
       ],
       "wip": [],
       "todo": [
@@ -130,6 +133,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-02",
+      "text": "Multijoueur (4 joueurs au plus) et ban temporaire · le chat comprend 5 langues sans IA · langue du mod au choix de chaque joueur · menu d'options"
+    },
     {
       "date": "2026-09-27",
       "text": "L'ennemi de nuit devient un boss : un seul par monde, compétences par chapitre, 2e phase, barre de boss, filtre noir et blanc, rituel final · animations de dissolution · 8 nouveaux objets"
