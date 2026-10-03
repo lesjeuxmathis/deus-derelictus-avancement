@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-03T21:00:00+02:00",
+  "updated": "2026-10-03T22:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -79,7 +79,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 78,
+      "percent": 79,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -94,7 +94,8 @@
         "Objets en 32×32 détaillés, lanterne en 3D",
         "Premier ennemi du bestiaire : modèle animé et textures des 4 variantes, en pixel art propre",
         "Barres de boss dessinées pour chaque boss : cadre, emblème, pièces qui pendent, pixels qui tombent quand il est touché",
-        "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)"
+        "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)",
+        "Fausse fenêtre de commandes identique à celle de Windows 11 (barre de titre, coins arrondis, texte net à toutes les échelles d'affichage)"
       ],
       "wip": [],
       "todo": [
@@ -105,7 +106,7 @@
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 63,
+      "percent": 74,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -115,15 +116,15 @@
         "Ambiances de 3 dimensions et de la présence",
         "Battement de cœur pendant le combat de boss",
         "Sons du premier ennemi du bestiaire (souffle, appel, bond, traversée)",
-        "Sons des 4 nouveaux ennemis (gémissements, hurlement de meute, sons étranges du fantôme, spores)"
+        "Sons des 4 nouveaux ennemis (gémissements, hurlement de meute, sons étranges du fantôme, spores)",
+        "Sons propres de l'ennemi de nuit (présence, coups, disparition, reformation, compétences, mort) et son propre battement de cœur",
+        "Bande-son dans le jeu : une musique par dimension, le thème du menu, la musique de combat qui change en 2e phase, le rituel, la victoire"
       ],
       "wip": [
-        "Bande-son : 10 morceaux composés, chacun à comparer avec une autre version avant de choisir"
+        "Choix final de chaque morceau (deux versions par morceau)"
       ],
       "todo": [
-        "Sons propres de l'ennemi de nuit",
-        "Ambiance continue de la dernière dimension",
-        "Intégrer la bande-son choisie dans le jeu"
+        "Ambiance continue de la dernière dimension"
       ]
     },
     {
@@ -147,6 +148,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-03",
+      "text": "La bande-son est dans le jeu · l'ennemi de nuit a ses propres sons · la fausse fenêtre de commandes ressemble à la vraie"
+    },
     {
       "date": "2026-10-03",
       "text": "Tout le bestiaire de base est en jeu : 4 nouveaux ennemis, leurs objets, leurs sons, leurs recettes"
