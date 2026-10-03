@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-03T19:00:00+02:00",
+  "updated": "2026-10-03T21:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -36,7 +36,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 59,
+      "percent": 64,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
@@ -48,11 +48,13 @@
         "Rituel final pour détruire l'ennemi de nuit pour de bon",
         "8 nouveaux objets : 3 reliques + une cape, et 4 objets divins hyper rares (seulement dans les coffres du mod)",
         "Premier ennemi du bestiaire : en groupe, entend le joueur, appelle à l'aide, bondit, traverse vitres et barreaux, faible à la lumière, laisse une trace qui corrompt",
-        "4 variantes de ce premier ennemi, dont un mini-boss qui garde les ruines"
+        "4 variantes de ce premier ennemi, dont un mini-boss qui garde les ruines",
+        "Le reste du bestiaire de base : 4 nouveaux ennemis (un qui te sent à travers les murs, une meute qui t'entend de loin et hurle, un fantôme qui apparaît et disparaît, un parasite qui se propage et corrompt le terrain et les autres ennemis)",
+        "Nouveaux objets lâchés par ces ennemis, avec des recettes (dont un remède)"
       ],
       "wip": [],
       "todo": [
-        "Bestiaire : 4 autres ennemis d'après les planches de l'auteur (+ ennemis spéciaux)",
+        "Ennemis spéciaux : un gardien et un chasseur d'âmes ; évolution des ennemis",
         "Petits ennemis et énigmes dans 3 autres dimensions",
         "Récompense de la salle finale"
       ]
@@ -77,7 +79,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 75,
+      "percent": 78,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -91,18 +93,19 @@
         "Animations de disparition et de reformation (dissolution pixel par pixel)",
         "Objets en 32×32 détaillés, lanterne en 3D",
         "Premier ennemi du bestiaire : modèle animé et textures des 4 variantes, en pixel art propre",
-        "Barres de boss dessinées pour chaque boss : cadre, emblème, pièces qui pendent, pixels qui tombent quand il est touché"
+        "Barres de boss dessinées pour chaque boss : cadre, emblème, pièces qui pendent, pixels qui tombent quand il est touché",
+        "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)"
       ],
       "wip": [],
       "todo": [
         "Validation finale des textures",
-        "Modèles et textures des 4 autres ennemis du bestiaire"
+        "Modèles des ennemis spéciaux"
       ]
     },
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 60,
+      "percent": 63,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -111,7 +114,8 @@
         "Sons propres des 3 petits ennemis (gémissements, cliquetis, œil qui se charge)",
         "Ambiances de 3 dimensions et de la présence",
         "Battement de cœur pendant le combat de boss",
-        "Sons du premier ennemi du bestiaire (souffle, appel, bond, traversée)"
+        "Sons du premier ennemi du bestiaire (souffle, appel, bond, traversée)",
+        "Sons des 4 nouveaux ennemis (gémissements, hurlement de meute, sons étranges du fantôme, spores)"
       ],
       "wip": [
         "Bande-son : 10 morceaux composés, chacun à comparer avec une autre version avant de choisir"
@@ -119,21 +123,20 @@
       "todo": [
         "Sons propres de l'ennemi de nuit",
         "Ambiance continue de la dernière dimension",
-        "Sons des 4 autres ennemis du bestiaire",
         "Intégrer la bande-son choisie dans le jeu"
       ]
     },
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 37,
+      "percent": 38,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
         "Corrections après vérification en jeu (titres, textures, blocages)",
         "Gros test automatique du boss (compétences, 2e phase, rituel, objets)",
         "Tests automatiques : multijoueur, compréhension du chat (435 phrases, 5 langues), langues et options",
-        "Test automatique du premier ennemi du bestiaire (apparition, lumière, traversée, appel, butin, sons)"
+        "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)"
       ],
       "wip": [],
       "todo": [
@@ -144,6 +147,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-03",
+      "text": "Tout le bestiaire de base est en jeu : 4 nouveaux ennemis, leurs objets, leurs sons, leurs recettes"
+    },
     {
       "date": "2026-10-03",
       "text": "Premier ennemi du bestiaire et ses 4 variantes · barres de boss dessinées pour chaque boss · 10 morceaux de bande-son composés"
