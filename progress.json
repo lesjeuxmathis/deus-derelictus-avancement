@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-03T22:00:00+02:00",
+  "updated": "2026-10-04T01:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 94,
+      "percent": 95,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -25,7 +25,8 @@
         "Langue du mod au choix de chaque joueur dès le premier lancement + menu d'options (depuis la liste des mods ou une touche)",
         "Apparition des ennemis selon le chapitre du joueur, plus forts à chaque chapitre, jamais dans le monde normal",
         "Barres de boss propres au mod, une par boss, empilées sous les barres normales",
-        "Tests en jeu automatiques : scénario complet, créatures, énigmes"
+        "Tests en jeu automatiques : scénario complet, créatures, énigmes",
+        "Évolution des ennemis : ils s'adaptent au joueur et à l'état du monde"
       ],
       "wip": [],
       "todo": [
@@ -36,7 +37,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 64,
+      "percent": 70,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
@@ -50,11 +51,12 @@
         "Premier ennemi du bestiaire : en groupe, entend le joueur, appelle à l'aide, bondit, traverse vitres et barreaux, faible à la lumière, laisse une trace qui corrompt",
         "4 variantes de ce premier ennemi, dont un mini-boss qui garde les ruines",
         "Le reste du bestiaire de base : 4 nouveaux ennemis (un qui te sent à travers les murs, une meute qui t'entend de loin et hurle, un fantôme qui apparaît et disparaît, un parasite qui se propage et corrompt le terrain et les autres ennemis)",
-        "Nouveaux objets lâchés par ces ennemis, avec des recettes (dont un remède)"
+        "Nouveaux objets lâchés par ces ennemis, avec des recettes (dont un remède)",
+        "Ennemis spéciaux : un gardien endormi dans 3 sanctuaires anciens, nourri par 4 piliers, et un chasseur d'âmes qui garde l'âme des joueurs morts près de lui",
+        "Une boussole qui mène à ce que la corruption t'a pris"
       ],
       "wip": [],
       "todo": [
-        "Ennemis spéciaux : un gardien et un chasseur d'âmes ; évolution des ennemis",
         "Petits ennemis et énigmes dans 3 autres dimensions",
         "Récompense de la salle finale"
       ]
@@ -79,7 +81,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 79,
+      "percent": 81,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -95,18 +97,19 @@
         "Premier ennemi du bestiaire : modèle animé et textures des 4 variantes, en pixel art propre",
         "Barres de boss dessinées pour chaque boss : cadre, emblème, pièces qui pendent, pixels qui tombent quand il est touché",
         "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)",
-        "Fausse fenêtre de commandes identique à celle de Windows 11 (barre de titre, coins arrondis, texte net à toutes les échelles d'affichage)"
+        "Fausse fenêtre de commandes identique à celle de Windows 11 (barre de titre, coins arrondis, texte net à toutes les échelles d'affichage)",
+        "Modèles, textures et barres de vie des ennemis spéciaux"
       ],
       "wip": [],
       "todo": [
         "Validation finale des textures",
-        "Modèles des ennemis spéciaux"
+        "Écran de chargement (logo et ambiance)"
       ]
     },
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 74,
+      "percent": 78,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -118,26 +121,27 @@
         "Sons du premier ennemi du bestiaire (souffle, appel, bond, traversée)",
         "Sons des 4 nouveaux ennemis (gémissements, hurlement de meute, sons étranges du fantôme, spores)",
         "Sons propres de l'ennemi de nuit (présence, coups, disparition, reformation, compétences, mort) et son propre battement de cœur",
-        "Bande-son dans le jeu : une musique par dimension, le thème du menu, la musique de combat qui change en 2e phase, le rituel, la victoire"
+        "Bande-son dans le jeu : une musique par dimension, le thème du menu, la musique de combat qui change en 2e phase, le rituel, la victoire",
+        "Sons des ennemis spéciaux : pierre qui s'éveille, piliers de cristal, âmes qui tintent",
+        "Ambiance continue de la dernière dimension"
       ],
       "wip": [
         "Choix final de chaque morceau (deux versions par morceau)"
       ],
-      "todo": [
-        "Ambiance continue de la dernière dimension"
-      ]
+      "todo": []
     },
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 38,
+      "percent": 39,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
         "Corrections après vérification en jeu (titres, textures, blocages)",
         "Gros test automatique du boss (compétences, 2e phase, rituel, objets)",
         "Tests automatiques : multijoueur, compréhension du chat (435 phrases, 5 langues), langues et options",
-        "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)"
+        "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)",
+        "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur"
       ],
       "wip": [],
       "todo": [
@@ -148,6 +152,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Les ennemis spéciaux sont en jeu : le gardien des sanctuaires, le chasseur d'âmes, l'évolution des ennemis"
+    },
     {
       "date": "2026-10-03",
       "text": "La bande-son est dans le jeu · l'ennemi de nuit a ses propres sons · la fausse fenêtre de commandes ressemble à la vraie"
