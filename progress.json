@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T14:00:00+02:00",
+  "updated": "2026-10-04T16:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 96,
+      "percent": 97,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -28,7 +28,9 @@
         "Tests en jeu automatiques : scénario complet, créatures, énigmes",
         "Évolution des ennemis : ils s'adaptent au joueur et à l'état du monde",
         "Arènes de boss fermées par un voile translucide ; qui s'échappe est ramené dedans, par les airs ou par la terre, à un prix fixe que rien ne réduit",
-        "Un verrou contre les modes créatif et spectateur dans les dimensions, prêt pour la sortie"
+        "Un verrou contre les modes créatif et spectateur dans les dimensions, prêt pour la sortie",
+        "Version finale propre : sans commandes de développement",
+        "Retour aux écrans de chargement de Minecraft à la toute fin"
       ],
       "wip": [],
       "todo": [
@@ -67,19 +69,20 @@
     {
       "id": "story",
       "name": "Histoire & textes",
-      "percent": 36,
+      "percent": 45,
       "weight": 0.15,
       "summary": "Trame, dialogues, notes et textes du jeu.",
       "done": [
         "Trame complète : 9 chapitres, plusieurs fins, un boss final",
-        "Titres traduits en 5 langues"
+        "Titres traduits en 5 langues",
+        "Tous les textes du boss final et de la fin",
+        "Exanimis t'appelle par ton nom"
       ],
       "wip": [],
       "todo": [
         "Textes définitifs : notes, murmures, registres",
         "Histoire de chaque dimension",
-        "Textes de la salle finale",
-        "Textes du boss final et de la fin"
+        "Textes de la salle finale"
       ]
     },
     {
@@ -163,6 +166,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Les textes de la fin sont écrits · Exanimis connaît ton nom · la version finale sans commandes de développement"
+    },
     {
       "date": "2026-10-04",
       "text": "Le boss final est en jeu, avec la vraie fin · écrans de chargement rendus en 3D"
