@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T21:00:00+02:00",
+  "updated": "2026-10-04T22:15:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -33,7 +33,8 @@
         "Retour aux écrans de chargement de Minecraft à la toute fin",
         "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)",
         "Longue partie testée : rapide et stable, rien qui s'accumule",
-        "Partie à 4 joueurs simulée de bout en bout : arrivées, départs, morts, le rituel et le combat final à quatre"
+        "Partie à 4 joueurs simulée de bout en bout : arrivées, départs, morts, le rituel et le combat final à quatre",
+        "Difficulté au choix de chaque joueur (facile, normal, difficile) ; à plusieurs, celle du plus grand nombre l'emporte"
       ],
       "wip": [],
       "todo": []
@@ -63,7 +64,9 @@
         "Le boss final : des ancrages à briser dans chaque dimension, un premier combat où il est repoussé, puis le combat à mort dans le ciel",
         "Une vraie fin : le retour au monde normal",
         "Les deux grands boss emportent des cœurs, rendus à leur vraie mort",
-        "Le combat dans le ciel : chutes rattrapées, morts qui ressortent du sigil"
+        "Le combat dans le ciel : chutes rattrapées, morts qui ressortent du sigil",
+        "Un livre divin qui répertorie chaque créature : cachée tant qu'on ne l'a pas tuée, puis sa description, sa vie, son butin, et l'histoire des boss vaincus",
+        "Des succès : les boss vaincus, la fin de l'histoire, le livre complet"
       ],
       "wip": [],
       "todo": []
@@ -119,7 +122,7 @@
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 95,
+      "percent": 100,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -136,19 +139,16 @@
         "Ambiance continue de la dernière dimension",
         "Sons des arènes et des énigmes",
         "Sons du boss final",
-        "Tous les sons, y compris ceux des cœurs volés et du combat du ciel"
+        "Tous les sons, y compris ceux des cœurs volés et du combat du ciel",
+        "Les musiques choisies, morceau par morceau"
       ],
-      "wip": [
-        "Choix final de chaque morceau (deux versions par morceau)"
-      ],
-      "todo": [
-        "Choix final des musiques"
-      ]
+      "wip": [],
+      "todo": []
     },
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 62,
+      "percent": 70,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
@@ -163,20 +163,25 @@
         "Toute l'histoire testée de bout en bout",
         "La montée de la corruption calée sur les chapitres",
         "Partie à 4 joueurs simulée : 2 bugs trouvés et corrigés (un boss plafonné en vie à plusieurs, un cœur pas emporté)",
-        "Une partie complète simulée, du premier soir jusqu'au retour"
+        "Une partie complète simulée, du premier soir jusqu'au retour",
+        "Chaque combat mesuré, chapitre par chapitre",
+        "Équilibrage : petits ennemis 4 fois plus résistants, boss qui encaissent 2 fois moins de dégâts",
+        "Tests automatiques du livre, des succès et de la difficulté ; les 23 suites de tests vertes"
       ],
-      "wip": [
-        "Mesure de chaque combat, chapitre par chapitre"
-      ],
+      "wip": [],
       "todo": [
         "Partie complète jouée du début à la fin (une version de test est prête)",
         "Partie à plusieurs avec de vrais joueurs",
-        "Équilibrage des combats après les mesures",
-        "Bande-annonce (quand tout sera à 100 %)"
+        "Bande-annonce (quand tout sera à 100 %)",
+        "Page de présentation du mod"
       ]
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Combats équilibrés · difficulté au choix · un livre divin des créatures · des succès · les musiques choisies"
+    },
     {
       "date": "2026-10-04",
       "text": "Textures et premiers murmures validés ; une partie à 4 simulée (2 bugs corrigés) et une partie complète simulée de bout en bout"
