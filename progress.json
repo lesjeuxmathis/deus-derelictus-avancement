@@ -41,7 +41,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 90,
+      "percent": 100,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
