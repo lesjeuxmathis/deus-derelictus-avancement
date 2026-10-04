@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T20:00:00+02:00",
+  "updated": "2026-10-04T21:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 99,
+      "percent": 100,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -32,12 +32,11 @@
         "Version finale propre : sans commandes de développement",
         "Retour aux écrans de chargement de Minecraft à la toute fin",
         "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)",
-        "Longue partie testée : rapide et stable, rien qui s'accumule"
+        "Longue partie testée : rapide et stable, rien qui s'accumule",
+        "Partie à 4 joueurs simulée de bout en bout : arrivées, départs, morts, le rituel et le combat final à quatre"
       ],
       "wip": [],
-      "todo": [
-        "Vraie partie à plusieurs joueurs"
-      ]
+      "todo": []
     },
     {
       "id": "content",
@@ -72,7 +71,7 @@
     {
       "id": "story",
       "name": "Histoire & textes",
-      "percent": 85,
+      "percent": 100,
       "weight": 0.15,
       "summary": "Trame, dialogues, notes et textes du jeu.",
       "done": [
@@ -80,17 +79,16 @@
         "Titres traduits en 5 langues",
         "Tous les textes du boss final et de la fin",
         "Le boss final t'appelle par ton nom",
-        "Les textes des dimensions"
+        "Les textes des dimensions",
+        "Les premiers murmures relus et validés"
       ],
       "wip": [],
-      "todo": [
-        "Dernière relecture des premiers murmures"
-      ]
+      "todo": []
     },
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 89,
+      "percent": 100,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -112,12 +110,11 @@
         "Les morts de chaque monde, en relief",
         "Un écran de chargement par monde, rendu en 3D d'après sa vraie carte",
         "Le boss final : sa barre, ses ancrages",
-        "Les marques sur la peau du joueur (cœurs volés, corruption)"
+        "Les marques sur la peau du joueur (cœurs volés, corruption)",
+        "Toutes les textures validées"
       ],
       "wip": [],
-      "todo": [
-        "Validation finale des textures"
-      ]
+      "todo": []
     },
     {
       "id": "audio",
@@ -151,7 +148,7 @@
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 52,
+      "percent": 62,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
@@ -164,17 +161,26 @@
         "Test automatique de toute la fin du jeu",
         "Avertissement au premier démarrage (photosensibilité, horreur)",
         "Toute l'histoire testée de bout en bout",
-        "La montée de la corruption calée sur les chapitres"
+        "La montée de la corruption calée sur les chapitres",
+        "Partie à 4 joueurs simulée : 2 bugs trouvés et corrigés (un boss plafonné en vie à plusieurs, un cœur pas emporté)",
+        "Une partie complète simulée, du premier soir jusqu'au retour"
       ],
-      "wip": [],
+      "wip": [
+        "Mesure de chaque combat, chapitre par chapitre"
+      ],
       "todo": [
-        "Partie complète jouée du début à la fin",
-        "Équilibrage des combats après une vraie partie",
+        "Partie complète jouée du début à la fin (une version de test est prête)",
+        "Partie à plusieurs avec de vrais joueurs",
+        "Équilibrage des combats après les mesures",
         "Bande-annonce (quand tout sera à 100 %)"
       ]
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Textures et premiers murmures validés ; une partie à 4 simulée (2 bugs corrigés) et une partie complète simulée de bout en bout"
+    },
     {
       "date": "2026-10-04",
       "text": "Passe de bugs : toutes les suites de tests repassées et vertes"
