@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T16:00:00+02:00",
+  "updated": "2026-10-04T18:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 97,
+      "percent": 98,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -30,7 +30,8 @@
         "Arènes de boss fermées par un voile translucide ; qui s'échappe est ramené dedans, par les airs ou par la terre, à un prix fixe que rien ne réduit",
         "Un verrou contre les modes créatif et spectateur dans les dimensions, prêt pour la sortie",
         "Version finale propre : sans commandes de développement",
-        "Retour aux écrans de chargement de Minecraft à la toute fin"
+        "Retour aux écrans de chargement de Minecraft à la toute fin",
+        "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)"
       ],
       "wip": [],
       "todo": [
@@ -41,7 +42,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 88,
+      "percent": 90,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
@@ -61,7 +62,9 @@
         "Une énigme dans chacune des 3 autres dimensions : une mélodie à rejouer sur des obélisques, un air à rejouer sur des cristaux, trois cœurs à rendre à leurs socles",
         "Des squelettes et des zombies propres à chaque monde, chacun avec son pouvoir",
         "Le boss final : des ancrages à briser dans chaque dimension, un premier combat où il est repoussé, puis le combat à mort dans le ciel",
-        "Une vraie fin : le retour au monde normal"
+        "Une vraie fin : le retour au monde normal",
+        "Les deux grands boss emportent des cœurs, rendus à leur vraie mort",
+        "Le combat dans le ciel : chutes rattrapées, morts qui ressortent du sigil"
       ],
       "wip": [],
       "todo": []
@@ -88,7 +91,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 87,
+      "percent": 89,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -109,7 +112,8 @@
         "Un voile d'arène par monde et un pour chacun des deux grands boss, animés",
         "Les morts de chaque monde, en relief",
         "Un écran de chargement par monde, rendu en 3D d'après sa vraie carte",
-        "Le boss final : sa barre, ses ancrages"
+        "Le boss final : sa barre, ses ancrages",
+        "Les marques sur la peau du joueur (cœurs volés, corruption)"
       ],
       "wip": [],
       "todo": [
@@ -119,7 +123,7 @@
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 80,
+      "percent": 95,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -135,17 +139,20 @@
         "Sons des ennemis spéciaux : pierre qui s'éveille, piliers de cristal, âmes qui tintent",
         "Ambiance continue de la dernière dimension",
         "Sons des arènes et des énigmes",
-        "Sons du boss final"
+        "Sons du boss final",
+        "Tous les sons, y compris ceux des cœurs volés et du combat du ciel"
       ],
       "wip": [
         "Choix final de chaque morceau (deux versions par morceau)"
       ],
-      "todo": []
+      "todo": [
+        "Choix final des musiques"
+      ]
     },
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 39,
+      "percent": 41,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
@@ -155,7 +162,8 @@
         "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)",
         "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur",
         "Tests automatiques des énigmes, des arènes et des nouveaux ennemis",
-        "Test automatique de toute la fin du jeu"
+        "Test automatique de toute la fin du jeu",
+        "Avertissement au premier démarrage (photosensibilité, horreur)"
       ],
       "wip": [],
       "todo": [
@@ -166,6 +174,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Les boss emportent des cœurs · marques sur la peau · plus dur à plusieurs · avertissement au premier démarrage"
+    },
     {
       "date": "2026-10-04",
       "text": "Les textes de la fin sont écrits · Exanimis connaît ton nom · la version finale sans commandes de développement"
