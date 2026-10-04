@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T01:00:00+02:00",
+  "updated": "2026-10-04T12:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 95,
+      "percent": 96,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -26,7 +26,8 @@
         "Apparition des ennemis selon le chapitre du joueur, plus forts à chaque chapitre, jamais dans le monde normal",
         "Barres de boss propres au mod, une par boss, empilées sous les barres normales",
         "Tests en jeu automatiques : scénario complet, créatures, énigmes",
-        "Évolution des ennemis : ils s'adaptent au joueur et à l'état du monde"
+        "Évolution des ennemis : ils s'adaptent au joueur et à l'état du monde",
+        "Arènes de boss fermées par un voile translucide ; qui s'échappe est ramené dedans, par les airs ou par la terre, à un prix fixe que rien ne réduit"
       ],
       "wip": [],
       "todo": [
@@ -37,7 +38,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 70,
+      "percent": 76,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
@@ -53,11 +54,13 @@
         "Le reste du bestiaire de base : 4 nouveaux ennemis (un qui te sent à travers les murs, une meute qui t'entend de loin et hurle, un fantôme qui apparaît et disparaît, un parasite qui se propage et corrompt le terrain et les autres ennemis)",
         "Nouveaux objets lâchés par ces ennemis, avec des recettes (dont un remède)",
         "Ennemis spéciaux : un gardien endormi dans 3 sanctuaires anciens, nourri par 4 piliers, et un chasseur d'âmes qui garde l'âme des joueurs morts près de lui",
-        "Une boussole qui mène à ce que la corruption t'a pris"
+        "Une boussole qui mène à ce que la corruption t'a pris",
+        "Une énigme dans chacune des 3 autres dimensions : une mélodie à rejouer sur des obélisques, un air à rejouer sur des cristaux, trois cœurs à rendre à leurs socles",
+        "Des squelettes et des zombies propres à chaque monde, chacun avec son pouvoir"
       ],
       "wip": [],
       "todo": [
-        "Petits ennemis et énigmes dans 3 autres dimensions",
+        "Le boss final, ses ancrages, un premier combat, puis le combat à mort et la fin",
         "Récompense de la salle finale"
       ]
     },
@@ -75,13 +78,14 @@
       "todo": [
         "Textes définitifs : notes, murmures, registres",
         "Histoire de chaque dimension",
-        "Textes de la salle finale"
+        "Textes de la salle finale",
+        "Textes du boss final et de la fin"
       ]
     },
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 81,
+      "percent": 84,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -98,18 +102,20 @@
         "Barres de boss dessinées pour chaque boss : cadre, emblème, pièces qui pendent, pixels qui tombent quand il est touché",
         "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)",
         "Fausse fenêtre de commandes identique à celle de Windows 11 (barre de titre, coins arrondis, texte net à toutes les échelles d'affichage)",
-        "Modèles, textures et barres de vie des ennemis spéciaux"
+        "Modèles, textures et barres de vie des ennemis spéciaux",
+        "Un écran de chargement par monde",
+        "Un voile d'arène par monde et un pour chacun des deux grands boss, animés",
+        "Les morts de chaque monde, en relief"
       ],
       "wip": [],
       "todo": [
-        "Validation finale des textures",
-        "Écran de chargement (logo et ambiance)"
+        "Validation finale des textures"
       ]
     },
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 78,
+      "percent": 79,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -123,7 +129,8 @@
         "Sons propres de l'ennemi de nuit (présence, coups, disparition, reformation, compétences, mort) et son propre battement de cœur",
         "Bande-son dans le jeu : une musique par dimension, le thème du menu, la musique de combat qui change en 2e phase, le rituel, la victoire",
         "Sons des ennemis spéciaux : pierre qui s'éveille, piliers de cristal, âmes qui tintent",
-        "Ambiance continue de la dernière dimension"
+        "Ambiance continue de la dernière dimension",
+        "Sons des arènes et des énigmes"
       ],
       "wip": [
         "Choix final de chaque morceau (deux versions par morceau)"
@@ -141,7 +148,8 @@
         "Gros test automatique du boss (compétences, 2e phase, rituel, objets)",
         "Tests automatiques : multijoueur, compréhension du chat (435 phrases, 5 langues), langues et options",
         "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)",
-        "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur"
+        "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur",
+        "Tests automatiques des énigmes, des arènes et des nouveaux ennemis"
       ],
       "wip": [],
       "todo": [
@@ -152,6 +160,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Énigmes dans 3 dimensions · un écran de chargement par monde · arènes de boss fermées par un voile · squelettes et zombies propres à chaque monde"
+    },
     {
       "date": "2026-10-04",
       "text": "Les ennemis spéciaux sont en jeu : le gardien des sanctuaires, le chasseur d'âmes, l'évolution des ennemis"
