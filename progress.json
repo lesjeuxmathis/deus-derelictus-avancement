@@ -79,8 +79,8 @@
         "Trame complète : 9 chapitres, plusieurs fins, un boss final",
         "Titres traduits en 5 langues",
         "Tous les textes du boss final et de la fin",
-        "Exanimis t'appelle par ton nom",
-        "Les textes des Damnés, du Vide et de L'Oubliée"
+        "Le boss final t'appelle par ton nom",
+        "Les textes des dimensions"
       ],
       "wip": [],
       "todo": [
@@ -151,7 +151,7 @@
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 50,
+      "percent": 52,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
@@ -177,6 +177,10 @@
   "journal": [
     {
       "date": "2026-10-04",
+      "text": "Passe de bugs : toutes les suites de tests repassées et vertes"
+    },
+    {
+      "date": "2026-10-04",
       "text": "Les textes des dimensions sont écrits"
     },
     {
@@ -189,7 +193,7 @@
     },
     {
       "date": "2026-10-04",
-      "text": "Les textes de la fin sont écrits · Exanimis connaît ton nom · la version finale sans commandes de développement"
+      "text": "Les textes de la fin sont écrits · le boss final connaît ton nom · la version finale sans commandes de développement"
     },
     {
       "date": "2026-10-04",
