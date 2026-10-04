@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T19:00:00+02:00",
+  "updated": "2026-10-04T20:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -72,20 +72,19 @@
     {
       "id": "story",
       "name": "Histoire & textes",
-      "percent": 45,
+      "percent": 85,
       "weight": 0.15,
       "summary": "Trame, dialogues, notes et textes du jeu.",
       "done": [
         "Trame complète : 9 chapitres, plusieurs fins, un boss final",
         "Titres traduits en 5 langues",
         "Tous les textes du boss final et de la fin",
-        "Exanimis t'appelle par ton nom"
+        "Exanimis t'appelle par ton nom",
+        "Les textes des Damnés, du Vide et de L'Oubliée"
       ],
       "wip": [],
       "todo": [
-        "Textes définitifs : notes, murmures, registres",
-        "Histoire de chaque dimension",
-        "Textes de la salle finale"
+        "Dernière relecture des premiers murmures"
       ]
     },
     {
@@ -176,6 +175,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Les textes des dimensions sont écrits"
+    },
     {
       "date": "2026-10-04",
       "text": "Longue partie et histoire complète testées · corruption mieux dosée"
