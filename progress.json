@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T12:00:00+02:00",
+  "updated": "2026-10-04T14:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -27,7 +27,8 @@
         "Barres de boss propres au mod, une par boss, empilées sous les barres normales",
         "Tests en jeu automatiques : scénario complet, créatures, énigmes",
         "Évolution des ennemis : ils s'adaptent au joueur et à l'état du monde",
-        "Arènes de boss fermées par un voile translucide ; qui s'échappe est ramené dedans, par les airs ou par la terre, à un prix fixe que rien ne réduit"
+        "Arènes de boss fermées par un voile translucide ; qui s'échappe est ramené dedans, par les airs ou par la terre, à un prix fixe que rien ne réduit",
+        "Un verrou contre les modes créatif et spectateur dans les dimensions, prêt pour la sortie"
       ],
       "wip": [],
       "todo": [
@@ -38,7 +39,7 @@
     {
       "id": "content",
       "name": "Contenu jouable",
-      "percent": 76,
+      "percent": 88,
       "weight": 0.25,
       "summary": "Lieux à explorer, ennemis, énigmes, objets.",
       "done": [
@@ -56,22 +57,21 @@
         "Ennemis spéciaux : un gardien endormi dans 3 sanctuaires anciens, nourri par 4 piliers, et un chasseur d'âmes qui garde l'âme des joueurs morts près de lui",
         "Une boussole qui mène à ce que la corruption t'a pris",
         "Une énigme dans chacune des 3 autres dimensions : une mélodie à rejouer sur des obélisques, un air à rejouer sur des cristaux, trois cœurs à rendre à leurs socles",
-        "Des squelettes et des zombies propres à chaque monde, chacun avec son pouvoir"
+        "Des squelettes et des zombies propres à chaque monde, chacun avec son pouvoir",
+        "Le boss final : des ancrages à briser dans chaque dimension, un premier combat où il est repoussé, puis le combat à mort dans le ciel",
+        "Une vraie fin : le retour au monde normal"
       ],
       "wip": [],
-      "todo": [
-        "Le boss final, ses ancrages, un premier combat, puis le combat à mort et la fin",
-        "Récompense de la salle finale"
-      ]
+      "todo": []
     },
     {
       "id": "story",
       "name": "Histoire & textes",
-      "percent": 35,
+      "percent": 36,
       "weight": 0.15,
       "summary": "Trame, dialogues, notes et textes du jeu.",
       "done": [
-        "Trame complète : 8 chapitres et 3 fins",
+        "Trame complète : 9 chapitres, plusieurs fins, un boss final",
         "Titres traduits en 5 langues"
       ],
       "wip": [],
@@ -85,7 +85,7 @@
     {
       "id": "visual",
       "name": "Visuels",
-      "percent": 84,
+      "percent": 87,
       "weight": 0.1,
       "summary": "Modèles, textures, animations et effets à l'écran.",
       "done": [
@@ -103,9 +103,10 @@
         "Les 4 nouveaux ennemis : modèles animés et textures en pixel art propre (dont un fantôme translucide)",
         "Fausse fenêtre de commandes identique à celle de Windows 11 (barre de titre, coins arrondis, texte net à toutes les échelles d'affichage)",
         "Modèles, textures et barres de vie des ennemis spéciaux",
-        "Un écran de chargement par monde",
         "Un voile d'arène par monde et un pour chacun des deux grands boss, animés",
-        "Les morts de chaque monde, en relief"
+        "Les morts de chaque monde, en relief",
+        "Un écran de chargement par monde, rendu en 3D d'après sa vraie carte",
+        "Le boss final : sa barre, ses ancrages"
       ],
       "wip": [],
       "todo": [
@@ -115,7 +116,7 @@
     {
       "id": "audio",
       "name": "Audio",
-      "percent": 79,
+      "percent": 80,
       "weight": 0.05,
       "summary": "Voix, bruitages et ambiances, tous synthétisés.",
       "done": [
@@ -130,7 +131,8 @@
         "Bande-son dans le jeu : une musique par dimension, le thème du menu, la musique de combat qui change en 2e phase, le rituel, la victoire",
         "Sons des ennemis spéciaux : pierre qui s'éveille, piliers de cristal, âmes qui tintent",
         "Ambiance continue de la dernière dimension",
-        "Sons des arènes et des énigmes"
+        "Sons des arènes et des énigmes",
+        "Sons du boss final"
       ],
       "wip": [
         "Choix final de chaque morceau (deux versions par morceau)"
@@ -149,7 +151,8 @@
         "Tests automatiques : multijoueur, compréhension du chat (435 phrases, 5 langues), langues et options",
         "Test automatique de tout le bestiaire (apparition par chapitre, sens, lumière, traversée, appel, meute, fantôme, parasite, butins, recettes, sons)",
         "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur",
-        "Tests automatiques des énigmes, des arènes et des nouveaux ennemis"
+        "Tests automatiques des énigmes, des arènes et des nouveaux ennemis",
+        "Test automatique de toute la fin du jeu"
       ],
       "wip": [],
       "todo": [
@@ -160,6 +163,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Le boss final est en jeu, avec la vraie fin · écrans de chargement rendus en 3D"
+    },
     {
       "date": "2026-10-04",
       "text": "Énigmes dans 3 dimensions · un écran de chargement par monde · arènes de boss fermées par un voile · squelettes et zombies propres à chaque monde"
