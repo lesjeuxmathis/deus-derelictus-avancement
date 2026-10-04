@@ -1,12 +1,12 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T18:00:00+02:00",
+  "updated": "2026-10-04T19:00:00+02:00",
   "domains": [
     {
       "id": "tech",
       "name": "Technique",
-      "percent": 98,
+      "percent": 99,
       "weight": 0.35,
       "summary": "Moteur du jeu, systèmes, sauvegarde et tests automatiques.",
       "done": [
@@ -31,12 +31,12 @@
         "Un verrou contre les modes créatif et spectateur dans les dimensions, prêt pour la sortie",
         "Version finale propre : sans commandes de développement",
         "Retour aux écrans de chargement de Minecraft à la toute fin",
-        "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)"
+        "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)",
+        "Longue partie testée : rapide et stable, rien qui s'accumule"
       ],
       "wip": [],
       "todo": [
-        "Vraie partie à plusieurs joueurs",
-        "Performances sur une longue partie"
+        "Vraie partie à plusieurs joueurs"
       ]
     },
     {
@@ -152,7 +152,7 @@
     {
       "id": "polish",
       "name": "Finition",
-      "percent": 41,
+      "percent": 50,
       "weight": 0.1,
       "summary": "Équilibrage, vraies parties de test, bande-annonce.",
       "done": [
@@ -163,17 +163,23 @@
         "Test automatique des ennemis spéciaux ; correction : une créature sur deux n'entendait jamais le joueur",
         "Tests automatiques des énigmes, des arènes et des nouveaux ennemis",
         "Test automatique de toute la fin du jeu",
-        "Avertissement au premier démarrage (photosensibilité, horreur)"
+        "Avertissement au premier démarrage (photosensibilité, horreur)",
+        "Toute l'histoire testée de bout en bout",
+        "La montée de la corruption calée sur les chapitres"
       ],
       "wip": [],
       "todo": [
         "Partie complète jouée du début à la fin",
-        "Équilibrage : vie, dégâts, vitesse de la corruption",
+        "Équilibrage des combats après une vraie partie",
         "Bande-annonce (quand tout sera à 100 %)"
       ]
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-04",
+      "text": "Longue partie et histoire complète testées · corruption mieux dosée"
+    },
     {
       "date": "2026-10-04",
       "text": "Les boss emportent des cœurs · marques sur la peau · plus dur à plusieurs · avertissement au premier démarrage"
