@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-04T22:15:00+02:00",
+  "updated": "2026-10-09T21:30:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -34,7 +34,9 @@
         "Ennemis plus résistants à plusieurs (+100 / +200 / +400 % de vie)",
         "Longue partie testée : rapide et stable, rien qui s'accumule",
         "Partie à 4 joueurs simulée de bout en bout : arrivées, départs, morts, le rituel et le combat final à quatre",
-        "Difficulté au choix de chaque joueur (facile, normal, difficile) ; à plusieurs, celle du plus grand nombre l'emporte"
+        "Difficulté au choix de chaque joueur (facile, normal, difficile) ; à plusieurs, celle du plus grand nombre l'emporte",
+        "Les blocs du mod sont incassables ; dans les dimensions du mod, on ne peut ni casser ni poser de blocs (sauf ce que l'histoire demande)",
+        "L'écran de chargement du monde normal peut être désactivé, et l'est tout seul dans les gros modpacks"
       ],
       "wip": [],
       "todo": []
@@ -66,7 +68,11 @@
         "Les deux grands boss emportent des cœurs, rendus à leur vraie mort",
         "Le combat dans le ciel : chutes rattrapées, morts qui ressortent du sigil",
         "Un livre divin qui répertorie chaque créature : cachée tant qu'on ne l'a pas tuée, puis sa description, sa vie, son butin, et l'histoire des boss vaincus",
-        "Des succès : les boss vaincus, la fin de l'histoire, le livre complet"
+        "Des succès : les boss vaincus, la fin de l'histoire, le livre complet",
+        "Un sanctuaire dans le monde normal, celui de l'écran de chargement : son autel appelle l'ennemi de nuit pour faire avancer l'histoire",
+        "Un repaire de l'ennemi de nuit dans chaque dimension, et une aiguille qui y mène",
+        "Un nouvel objet divin qui protège du feu et de la lave",
+        "Un objet divin éclaire doucement autour du joueur dans le noir"
       ],
       "wip": [],
       "todo": []
@@ -114,7 +120,9 @@
         "Un écran de chargement par monde, rendu en 3D d'après sa vraie carte",
         "Le boss final : sa barre, ses ancrages",
         "Les marques sur la peau du joueur (cœurs volés, corruption)",
-        "Toutes les textures validées"
+        "Toutes les textures validées",
+        "La lueur rouge seulement dans les dimensions ou près des créatures du mod",
+        "Nouvelle icône du mod, dessinée en pixel art"
       ],
       "wip": [],
       "todo": []
@@ -166,7 +174,9 @@
         "Une partie complète simulée, du premier soir jusqu'au retour",
         "Chaque combat mesuré, chapitre par chapitre",
         "Équilibrage : petits ennemis 4 fois plus résistants, boss qui encaissent 2 fois moins de dégâts",
-        "Tests automatiques du livre, des succès et de la difficulté ; les 23 suites de tests vertes"
+        "Tests automatiques du livre, des succès et de la difficulté ; les 23 suites de tests vertes",
+        "L'ennemi de nuit plus résistant (+50 % de vie)",
+        "Tests automatiques : règles des dimensions, sanctuaire et repaires, lumières"
       ],
       "wip": [],
       "todo": [
@@ -178,6 +188,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-09",
+      "text": "Un sanctuaire comme sur l'écran de chargement · un repaire dans chaque dimension · les dimensions ne se cassent plus · un objet contre le feu · nouvelle icône"
+    },
     {
       "date": "2026-10-04",
       "text": "Combats équilibrés · difficulté au choix · un livre divin des créatures · des succès · les musiques choisies"
