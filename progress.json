@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-09T21:30:00+02:00",
+  "updated": "2026-10-10T12:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -176,7 +176,10 @@
         "Équilibrage : petits ennemis 4 fois plus résistants, boss qui encaissent 2 fois moins de dégâts",
         "Tests automatiques du livre, des succès et de la difficulté ; les 23 suites de tests vertes",
         "L'ennemi de nuit plus résistant (+50 % de vie)",
-        "Tests automatiques : règles des dimensions, sanctuaire et repaires, lumières"
+        "Tests automatiques : règles des dimensions, sanctuaire et repaires, lumières",
+        "Un guide pour le joueur : objectif à l'écran, journal, repère de quête",
+        "Armes améliorables (épée et arc, 5 niveaux)",
+        "L'histoire avance pour tous les joueurs en même temps"
       ],
       "wip": [],
       "todo": [
@@ -188,6 +191,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-10",
+      "text": "Un vrai guide (objectif à l'écran, journal, repère de quête) · armes améliorables et un arc · histoire commune à tous les joueurs · un temple pour le portail · sanctuaire refait · nouvelle icône"
+    },
     {
       "date": "2026-10-09",
       "text": "Un sanctuaire comme sur l'écran de chargement · un repaire dans chaque dimension · les dimensions ne se cassent plus · un objet contre le feu · nouvelle icône"
