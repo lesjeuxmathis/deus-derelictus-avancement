@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-10T12:00:00+02:00",
+  "updated": "2026-10-11T12:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -179,7 +179,10 @@
         "Tests automatiques : règles des dimensions, sanctuaire et repaires, lumières",
         "Un guide pour le joueur : objectif à l'écran, journal, repère de quête",
         "Armes améliorables (épée et arc, 5 niveaux)",
-        "L'histoire avance pour tous les joueurs en même temps"
+        "L'histoire avance pour tous les joueurs en même temps",
+        "Un livre de quêtes : on choisit d'être guidé",
+        "Une armure qui se renforce au fil de l'aventure",
+        "Un équipement rare modélisé en 3D, ultra détaillé"
       ],
       "wip": [],
       "todo": [
@@ -191,6 +194,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-11",
+      "text": "Un livre de quêtes à lire pour être guidé · les quêtes à gauche de l'écran, place réglable · une armure qui se renforce à chaque grand ennemi vaincu, aux couleurs du joueur · un équipement très rare pour planer, entièrement en 3D détaillée · version finale sans commandes de test · horloge de jeu réparée"
+    },
     {
       "date": "2026-10-10",
       "text": "Un vrai guide (objectif à l'écran, journal, repère de quête) · armes améliorables et un arc · histoire commune à tous les joueurs · un temple pour le portail · sanctuaire refait · nouvelle icône"
