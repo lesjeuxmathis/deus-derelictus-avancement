@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-16T17:43:15+02:00",
+  "updated": "2026-10-17T00:46:18+02:00",
   "domains": [
     {
       "id": "tech",
@@ -76,7 +76,9 @@
         "Des quêtes secondaires et leurs récompenses",
         "Un nouveau boss gardien",
         "Quatre forges en ruine à explorer",
-        "Des énigmes tirées au hasard pour chaque partie"
+        "Des énigmes tirées au hasard pour chaque partie",
+        "Un poste d'amélioration : armes et outils du niveau I au V",
+        "Une 8e quête secondaire, avec son repère"
       ],
       "wip": [],
       "todo": []
@@ -126,7 +128,8 @@
         "Les marques sur la peau du joueur (cœurs volés, corruption)",
         "Toutes les textures validées",
         "La lueur rouge seulement dans les dimensions ou près des créatures du mod",
-        "Nouvelle icône du mod, dessinée en pixel art"
+        "Nouvelle icône du mod, dessinée en pixel art",
+        "Une apparence par niveau pour les armes et les outils"
       ],
       "wip": [],
       "todo": []
@@ -193,7 +196,7 @@
       "todo": [
         "Partie complète jouée du début à la fin (une version de test est prête)",
         "Partie à plusieurs avec de vrais joueurs",
-        "Bande-annonce (en tournage)",
+        "Bande-annonce (montée, à publier)",
         "Page de présentation du mod"
       ]
     }
@@ -201,7 +204,7 @@
   "journal": [
     {
       "date": "2026-10-16",
-      "text": "Des quêtes secondaires avec leurs récompenses · un nouveau boss gardien et quatre forges en ruine à découvrir · des ponts pour tout visiter · les grands bâtiments cherchent un terrain plat · les armes gagnent en durabilité, l'arc ne manque plus de flèches · la faim ralentie par l'équipement rare · 23 retours de playtest corrigés · des énigmes différentes dans chaque partie · bande-annonce en tournage"
+      "text": "Des quêtes secondaires avec leurs récompenses · un nouveau boss gardien et quatre forges en ruine à découvrir · des ponts pour tout visiter · les grands bâtiments cherchent un terrain plat · les armes gagnent en durabilité, l'arc ne manque plus de flèches · la faim ralentie par l'équipement rare · 23 retours de playtest corrigés · des énigmes différentes dans chaque partie · bande-annonce tournée et montée · un nouveau poste d'amélioration pour les armes et les outils, une apparence par niveau · une 8e quête secondaire"
     },
     {
       "date": "2026-10-11",
