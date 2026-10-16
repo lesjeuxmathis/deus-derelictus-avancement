@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-11T12:00:00+02:00",
+  "updated": "2026-10-16T12:00:00+02:00",
   "domains": [
     {
       "id": "tech",
@@ -72,7 +72,10 @@
         "Un sanctuaire dans le monde normal, celui de l'écran de chargement : son autel appelle l'ennemi de nuit pour faire avancer l'histoire",
         "Un repaire de l'ennemi de nuit dans chaque dimension, et une aiguille qui y mène",
         "Un nouvel objet divin qui protège du feu et de la lave",
-        "Un objet divin éclaire doucement autour du joueur dans le noir"
+        "Un objet divin éclaire doucement autour du joueur dans le noir",
+        "Des quêtes secondaires et leurs récompenses",
+        "Un nouveau boss gardien",
+        "Quatre forges en ruine à explorer"
       ],
       "wip": [],
       "todo": []
@@ -182,7 +185,8 @@
         "L'histoire avance pour tous les joueurs en même temps",
         "Un livre de quêtes : on choisit d'être guidé",
         "Une armure qui se renforce au fil de l'aventure",
-        "Un équipement rare modélisé en 3D, ultra détaillé"
+        "Un équipement rare modélisé en 3D, ultra détaillé",
+        "23 retours de playtest corrigés"
       ],
       "wip": [],
       "todo": [
@@ -194,6 +198,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-16",
+      "text": "Des quêtes secondaires avec leurs récompenses · un nouveau boss gardien et quatre forges en ruine à découvrir · des ponts pour tout visiter · les grands bâtiments cherchent un terrain plat · les armes gagnent en durabilité, l'arc ne manque plus de flèches · la faim ralentie par l'équipement rare · 23 retours de playtest corrigés"
+    },
     {
       "date": "2026-10-11",
       "text": "Un livre de quêtes à lire pour être guidé · les quêtes à gauche de l'écran, place réglable · une armure qui se renforce à chaque grand ennemi vaincu, aux couleurs du joueur · un équipement très rare pour planer, entièrement en 3D détaillée · version finale sans commandes de test · horloge de jeu réparée"
