@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-17T21:43:18+02:00",
+  "updated": "2026-10-18T01:47:06+02:00",
   "domains": [
     {
       "id": "tech",
@@ -199,12 +199,16 @@
       "todo": [
         "Partie complète jouée du début à la fin (une version de test est prête)",
         "Partie à plusieurs avec de vrais joueurs",
-        "Bande-annonce (montée, à publier)",
+        "Bande-annonce (prête, à publier)",
         "Page de présentation du mod"
       ]
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-18",
+      "text": "La bande-annonce refaite à partir de vraies parties : 1 min 30 en 1080p, montée sur la musique du mod, sans rien dévoiler de la fin"
+    },
     {
       "date": "2026-10-17",
       "text": "Retours de jeu : une ambiance plus douce à l'oreille · un boss gardien rééquilibré : moins de renforts, plus abordable, et il ne peut plus rester hors de son arène · l'arme la plus forte abat un ennemi spécial d'un seul coup · le combat final pardonne une mort (retour après 10 s) · des marques de corruption plus lisibles, compatibles avec les skins en 3D · des coffres dans les tours, dont certains sont des mimics"
