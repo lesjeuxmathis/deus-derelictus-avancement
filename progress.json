@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-17T00:46:18+02:00",
+  "updated": "2026-10-17T19:49:31+02:00",
   "domains": [
     {
       "id": "tech",
@@ -202,6 +202,10 @@
     }
   ],
   "journal": [
+    {
+      "date": "2026-10-17",
+      "text": "Retours de jeu : une ambiance plus douce à l'oreille · un boss gardien rééquilibré : moins de renforts, plus abordable, et il ne peut plus rester hors de son arène"
+    },
     {
       "date": "2026-10-16",
       "text": "Des quêtes secondaires avec leurs récompenses · un nouveau boss gardien et quatre forges en ruine à découvrir · des ponts pour tout visiter · les grands bâtiments cherchent un terrain plat · les armes gagnent en durabilité, l'arc ne manque plus de flèches · la faim ralentie par l'équipement rare · 23 retours de playtest corrigés · des énigmes différentes dans chaque partie · bande-annonce tournée et montée · un nouveau poste d'amélioration pour les armes et les outils, une apparence par niveau · une 8e quête secondaire"
