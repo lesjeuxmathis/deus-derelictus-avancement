@@ -1,7 +1,7 @@
 {
   "project": "DEUS DERELICTUS",
   "tagline": "Mod d'horreur pour Minecraft — sortie prévue le 31 octobre 2026",
-  "updated": "2026-10-17T20:05:08+02:00",
+  "updated": "2026-10-17T21:43:18+02:00",
   "domains": [
     {
       "id": "tech",
@@ -78,7 +78,9 @@
         "Quatre forges en ruine à explorer",
         "Des énigmes tirées au hasard pour chaque partie",
         "Un poste d'amélioration : armes et outils du niveau I au V",
-        "Une 8e quête secondaire, avec son repère"
+        "Une 8e quête secondaire, avec son repère",
+        "Des mimics cachés parmi les coffres",
+        "Un retour au combat final après une mort"
       ],
       "wip": [],
       "todo": []
@@ -129,7 +131,8 @@
         "Toutes les textures validées",
         "La lueur rouge seulement dans les dimensions ou près des créatures du mod",
         "Nouvelle icône du mod, dessinée en pixel art",
-        "Une apparence par niveau pour les armes et les outils"
+        "Une apparence par niveau pour les armes et les outils",
+        "Marques de corruption redessinées, compatibles avec les skins en 3D"
       ],
       "wip": [],
       "todo": []
@@ -204,7 +207,7 @@
   "journal": [
     {
       "date": "2026-10-17",
-      "text": "Retours de jeu : une ambiance plus douce à l'oreille · un boss gardien rééquilibré : moins de renforts, plus abordable, et il ne peut plus rester hors de son arène · l'arme la plus forte abat un ennemi spécial d'un seul coup"
+      "text": "Retours de jeu : une ambiance plus douce à l'oreille · un boss gardien rééquilibré : moins de renforts, plus abordable, et il ne peut plus rester hors de son arène · l'arme la plus forte abat un ennemi spécial d'un seul coup · le combat final pardonne une mort (retour après 10 s) · des marques de corruption plus lisibles, compatibles avec les skins en 3D · des coffres dans les tours, dont certains sont des mimics"
     },
     {
       "date": "2026-10-16",
